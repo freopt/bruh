@@ -7,8 +7,8 @@ import net.minecraft.item.ItemBlock;
 public class ThingyItemBlock extends ItemBlock {
     public ThingyItemBlock(Block block) {
         super(block);
-        this.setRegistryName(block.getRegistryName());
-        this.setTranslationKey(block.getTranslationKey());
+        setRegistryName(block.getRegistryName());
+        setTranslationKey(block.getTranslationKey());
 
     }
 }

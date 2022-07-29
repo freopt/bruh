@@ -7,9 +7,9 @@ import net.minecraft.util.ResourceLocation;
 public class ThingyItem extends Item {
 
     public ThingyItem(String name) {
-        this.setRegistryName(new ResourceLocation(Thingy.MODID,name));
-        this.setTranslationKey(Thingy.MODID+"."+name);
-        this.setCreativeTab(Thingy.creativeTab);
+        setRegistryName(new ResourceLocation(Thingy.MODID,name));
+        setTranslationKey(Thingy.MODID+"."+name);
+        setCreativeTab(Thingy.creativeTab);
     }
 
 }

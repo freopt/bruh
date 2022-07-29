@@ -10,11 +10,11 @@ import net.minecraft.util.ResourceLocation;
 public class ThingyBlock extends Block {
     public ThingyBlock(Material material, String name, Boolean doCreateItemBlock) {
         super(material);
-        this.setRegistryName(new ResourceLocation(Thingy.MODID,name));
-        this.setTranslationKey(Thingy.MODID+"."+name);
+        setRegistryName(new ResourceLocation(Thingy.MODID,name));
+        setTranslationKey(Thingy.MODID+"."+name);
         if (doCreateItemBlock) {
             ModItems.ITEMS.add(new ThingyItemBlock(this));
-            this.setCreativeTab(Thingy.creativeTab);
+            setCreativeTab(Thingy.creativeTab);
         }
     }
 
