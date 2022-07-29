@@ -1,0 +1,19 @@
+.gradle/
+build/
+out/
+run/
+eclipse/
+.idea/
+src/META-INF/
+/*.iws
+/*.ipr
+/*.iml
+
+# Eclipse IDE files
+.classpath
+.project
+.settings
+bin/
+
+# Minecraft files
+*.launch
